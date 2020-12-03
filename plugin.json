@@ -1,7 +1,7 @@
 {
   "type": "panel",
   "name": "Starter Panel",
-  "id": "starter-panel",
+  "id": "datav-starter-panel",
 
   "info": {
     "description": "A panel for plugins developers to start",
@@ -10,8 +10,8 @@
     },
     "keywords": ["panel", "template"],
     "logos": {
-      "small": "starter-panel-logo.svg",
-      "large": "starter-panel-logo.svg"
+      "small": "datav-starter-panel-logo.svg",
+      "large": "datav-starter-panel-logo.svg"
     },
     "screenshots": [],
     "version": "%VERSION%",

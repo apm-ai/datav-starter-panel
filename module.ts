@@ -1,8 +1,8 @@
-import { PanelPlugin } from 'src/packages/datav-core';
+import { PanelPlugin } from 'src/packages/datav-core/src';
 import { StarterPanelOptions } from './types';
-import DependencyGraph  from './DependencyGraph';
+import StarterPanel  from './StarterPanel';
 
-export const plugin = new PanelPlugin<StarterPanelOptions>(DependencyGraph).setPanelOptions(builder => {
+export const plugin = new PanelPlugin<StarterPanelOptions>(StarterPanel).setPanelOptions(builder => {
   return builder
     .addTextInput({
       path: 'text',

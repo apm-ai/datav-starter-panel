@@ -1,8 +1,8 @@
 import React, { PureComponent } from 'react';
-import { PanelProps, withTheme, DatavTheme} from 'src/packages/datav-core';
+import { PanelProps, withTheme, DatavTheme} from 'src/packages/datav-core/src';
 import { StarterPanelOptions } from './types';
 import { css, cx } from 'emotion';
-import { stylesFactory, useTheme } from 'src/packages/datav-core';
+import { stylesFactory, useTheme } from 'src/packages/datav-core/src';
 
 interface Props extends PanelProps<StarterPanelOptions> { 
   theme: DatavTheme
