@@ -1,17 +1,17 @@
 import React, { PureComponent } from 'react';
 import { PanelProps, withTheme, DatavTheme} from 'src/packages/datav-core';
-import { DependencyGraphOptions } from './types';
+import { StarterPanelOptions } from './types';
 import { css, cx } from 'emotion';
 import { stylesFactory, useTheme } from 'src/packages/datav-core';
 
-interface Props extends PanelProps<DependencyGraphOptions> { 
+interface Props extends PanelProps<StarterPanelOptions> { 
   theme: DatavTheme
 }
 interface State {
 
 }
 
-class DependencyGraph extends PureComponent<Props, State> {
+class StarterPanel extends PureComponent<Props, State> {
   render() {
     const { options, data, width, height,theme} = this.props
       const styles = getStyles();
@@ -57,7 +57,7 @@ class DependencyGraph extends PureComponent<Props, State> {
 
 
 
-export default withTheme(DependencyGraph)
+export default withTheme(StarterPanel)
 
 const getStyles = stylesFactory(() => {
   return {

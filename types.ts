@@ -1,6 +1,6 @@
 type SeriesSize = 'sm' | 'md' | 'lg';
 
-export interface DependencyGraphOptions {
+export interface StarterPanelOptions {
   text: string;
   showSeriesCount: boolean;
   seriesCountSize: SeriesSize;

@@ -1,29 +1,20 @@
 {
   "type": "panel",
-  "name": "Dependency graph",
-  "id": "dependency-graph",
+  "name": "Starter Panel",
+  "id": "starter-panel",
 
   "info": {
-    "description": "Dependency graph panel plugin",
+    "description": "A panel for plugins developers to start",
     "author": {
       "name": "Datav"
     },
     "keywords": ["panel", "template"],
     "logos": {
-      "small": "dependency-graph-logo.svg",
-      "large": "dependency-graph-logo.svg"
+      "small": "starter-panel-logo.svg",
+      "large": "starter-panel-logo.svg"
     },
-    "links": [
-      {"name": "Website", "url": "https://github.com/grafana/simple-react-panel"},
-      {"name": "License", "url": "https://github.com/grafana/simple-react-panel/blob/master/LICENSE"}
-    ],
     "screenshots": [],
     "version": "%VERSION%",
     "updated": "%TODAY%"
-  },
-
-  "dependencies": {
-    "grafanaVersion": "7.0.x",
-    "plugins": []
   }
 }
